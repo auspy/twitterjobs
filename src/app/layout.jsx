@@ -34,6 +34,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const gaId = process.env.NEXT_PUBLIC_GAID;
   return (
     <html lang="en" className={`${overusedgrotesk.variable}`}>
       <head>
@@ -45,7 +46,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-Q3DST65NTS" />
+      <GoogleAnalytics gaId={gaId} />
     </html>
   );
 }
