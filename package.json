@@ -1,0 +1,46 @@
+{
+  "name": "twitterjobs-work",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.1.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@upstash/ratelimit": "^2.0.3",
+    "@upstash/redis": "^1.34.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "contentful": "^11.0.2",
+    "contentful-management": "^11.35.0",
+    "framer-motion": "^10.16.4",
+    "fuzzysort": "^3.0.2",
+    "lucide-react": "^0.445.0",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-tweet": "^3.2.1",
+    "sharp": "^0.32.6",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "twitter-api-v2": "^1.17.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.14",
+    "@types/react": "18.2.48",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.33",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.4.1"
+  }
+}
