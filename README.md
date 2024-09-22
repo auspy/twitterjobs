@@ -1,21 +1,56 @@
-# Pillarstack - Assorted resources for frontend devs & web designers
+# TwitterJobs.work - Discover Job Opportunities Shared on Twitter
 
-![Project Banner](https://ph-files.imgix.net/ff09f0f2-e300-4907-b7c3-0684539ba35f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fm=pjpg&w=1100&h=578&fit=max&dpr=1)
+![Project Banner](https://www.twitterjobs.work/project-banner.png)
 
-## How to contribute
+TwitterJobs.work is a platform that aggregates job-related tweets from Twitter, making it easier for job seekers to discover relevant opportunities in their field.
 
-You can contribute in multiple ways:
-1. **Submit resources**: You can submit resources via this google form [link](https://forms.gle/PftXkai3sNZquWu68)
-2. **Improving code**: If you would like to include a feature, please open an [issue](https://github.com/huyngxyz/Pillarstack/issues) or send a pull request! 
+## Features
 
-**[UPDATE: I'm currently putting aside Pillarstack and come back to maintain in the upcoming future]. Your PR or Issues might not be read or replied to, really sorry for the inactivity**
+- Daily updates with fresh job postings from Twitter
+- Advanced search functionality to find relevant positions
+- Easy-to-use interface for browsing job opportunities
+- Direct links to original tweets for more information
 
-3. **Submit feedback**: If you prefer to send feedback via a form, fill the form [here](https://forms.gle/s84TNQcUX1P22bTE7)
+## How It Works
 
-[More information](https://github.com/huyngxyz/Pillarstack/blob/main/CONTRIBUTE.md)
+1. Our system automatically fetches job-related tweets from Twitter daily.
+2. The tweets are processed and stored in our database.
+3. Users can search and filter these job postings on our website.
+4. Each job listing links back to the original tweet for more details and application instructions.
 
-Thanks for checking out the project and making the project even better for everyone : )
+## Technology Stack
 
-## Support the project
+- Frontend: Next.js, Tailwind CSS, shadcn UI
+- Backend: Node.js
+- Database: Contentful
 
-<a href="https://www.producthunt.com/posts/pillarstack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pillarstack" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=427808&theme=light" alt="Pillarstack - Assorted&#0032;resources&#0032;for&#0032;frontend&#0032;developers&#0032;and&#0032;web&#0032;designers | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+## Contributing
+
+We welcome contributions to improve TwitterJobs.work! Here's how you can help:
+
+1. **Report bugs**: If you find a bug, please open an [issue](https://github.com/auspy/twitterjobs/issues).
+2. **Suggest enhancements**: Have ideas to make the platform better? Open an [issue](https://github.com/auspy/twitterjobs/issues) to suggest improvements.
+3. **Submit pull requests**: If you'd like to contribute code, please fork the repository and submit a pull request.
+
+## Setup for Development
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables (see `.env.example`)
+4. Run the development server: `npm run dev`
+
+## Support the Project
+
+If you find TwitterJobs.work helpful, please consider starring the repository and sharing it with others who might benefit from it.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+
+For any queries or support, please open an issue or contact us at support@twitterjobs.work.
+
+---
+
+Happy job hunting with TwitterJobs.work!
