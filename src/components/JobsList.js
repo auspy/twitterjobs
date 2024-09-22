@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import fuzzysort from "fuzzysort";
 import JobTweet from "./JobTweet";
+import { Input } from "./input";
 
 function debounce(func, wait) {
   let timeout;
@@ -55,11 +56,11 @@ export default function JobsList() {
 
   return (
     <div className="container mx-auto px-4">
-      <input
+      <Input
         type="text"
         placeholder="Search jobs..."
         onChange={(e) => debouncedSetSearchTerm(e.target.value)}
-        className="w-full p-2 mb-4 border rounded"
+        className="mb-4"
       />
       {filteredJobs.map((job) => (
         <JobTweet

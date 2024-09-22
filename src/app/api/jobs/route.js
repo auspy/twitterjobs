@@ -1,10 +1,11 @@
-import { getContent } from "../utils/getContent";
+import { getContent } from "../../utils/getContent";
+import { NextResponse } from "next/server";
 
-export default async function handler(req, res) {
+export async function GET(req) {
   try {
     const { items: jobs } = await getContent({
-      content_type: 'twitterJob',
-      order: '-fields.createdAt',
+      content_type: "twitterJob",
+      order: "-fields.createdAt",
       limit: 20,
     });
 
@@ -16,9 +17,9 @@ export default async function handler(req, res) {
       createdAt: job.fields.createdAt,
     }));
 
-    res.status(200).json(formattedJobs);
+    return NextResponse.json(formattedJobs);
   } catch (error) {
     console.error("Error fetching jobs:", error);
-    res.status(500).json({ error: "Error fetching jobs" });
+    return NextResponse.json({ error: "Error fetching jobs" }, { status: 500 });
   }
 }
