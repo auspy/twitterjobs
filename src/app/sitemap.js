@@ -1,23 +1,25 @@
 export default function sitemap() {
-    return [
-      {
-        url: 'https://pillarstack.com',
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 1,
-      },
-      {
-        url: 'https://pillarstack.com/about',
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 0.8,
-      },
-      {
-        url: 'https://pillarstack.com/legal',
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 0.3,
-      },
-     
-    ]
-  }
+  const baseUrl = "https://www.twitterjobs.work";
+  const currentDate = new Date().toISOString();
+
+  return [
+    {
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/legal`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+  ];
+}

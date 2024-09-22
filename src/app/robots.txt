@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://www.pillarstack.com/sitemap.xml
+Sitemap: https://www.twitterjobs.work/sitemap.xml

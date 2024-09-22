@@ -1,1 +1,1 @@
-Pillarstack: Assorted resources for frontend developers and web designers.
+TwitterJobs.work: Discover job opportunities shared on Twitter

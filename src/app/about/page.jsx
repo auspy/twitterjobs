@@ -1,5 +1,4 @@
 import { FooterTitle } from "@/components/SVGs/FooterTitle";
-import { LogoFull } from "@/components/SVGs/Logofull";
 
 export const metadata = {
   metadataBase: new URL("https://www.twitterjobs.work"),
@@ -16,11 +15,11 @@ export const metadata = {
     title: "TwitterJobs.work — About Us | Find Your Next Job on Twitter",
     description:
       "Discover job opportunities shared on Twitter with TwitterJobs.work. We curate and organize job tweets to help you find your next career move.",
-    url: "https://twitterjobs.work/about",
+    url: "https://www.twitterjobs.work/about",
     siteName: "TwitterJobs.work",
     images: [
       {
-        url: "https://twitterjobs.work/og-image.jpg",
+        url: "https://www.twitterjobs.work/og-image.jpg",
         width: 1200,
         height: 630,
       },
@@ -33,7 +32,7 @@ export const metadata = {
     title: "TwitterJobs.work — About Us | Find Your Next Job on Twitter",
     description:
       "Discover job opportunities shared on Twitter with TwitterJobs.work. We curate and organize job tweets to help you find your next career move.",
-    images: ["https://twitterjobs.work/twitter-image.jpg"],
+    images: ["https://www.twitterjobs.work/twitter-image.jpg"],
   },
   robots: {
     index: true,
